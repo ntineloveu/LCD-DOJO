@@ -2,7 +2,7 @@ import java.util.*;
 public class MainApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("please enter number");
+        System.out.println("please enter number or amount");
         String input = scanner.next();
 
         LCD lcd = new LCD();
