@@ -1,7 +1,7 @@
 public class LCD {
 
     public String convert(String number) {
-        String result1 = "", result2 = "", result3 = "";
+        String result1 = "", result2 = "", result3 = "", totalResult = "";
         String[] line1 = {" _ ", "   ", " _ ", " _ ", "   ", " _ ", " _ ", " _ ", " _ ", " _ "};
         String[] line2 = {"| |", "  |", " _|", " _|", "|_|", "|_ ", "|_ ", "  |", "|_|", "|_|"};
         String[] line3 = {"|_|", "  |", "|_ ", " _|", "  |", " _|", "|_|", "  |", "|_|", " _|"};
@@ -13,6 +13,8 @@ public class LCD {
             result3 += line3[indexNum];
         }
 
-        return result1 + "\n" + result2 + "\n" + result3;
+        totalResult = result1 + "\n" + result2 + "\n" + result3;
+
+        return totalResult;
     }
 }
