@@ -71,4 +71,9 @@
 //        expectedValue  = "Please enter amount less than 10,000";
 //        assertEquals(expectedValue, lcd.convert("123456"));
 //    }
+//    @org.junit.Test
+//    public void LCD_10DOT00() {
+//        expectedValue  = "Please enter Integer Number !!!";
+//        assertEquals(expectedValue, lcd.convert("10.00"));
+//    }
 //}
