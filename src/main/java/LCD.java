@@ -21,4 +21,5 @@ public class LCD {
             return "Please enter Integer Number !!!";
         }
     }
+
 }
